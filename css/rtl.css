@@ -1,0 +1,35 @@
+@font-face {
+font-family: "yekan";
+src: url(fonts_farsi/Yekan.eot);
+src: url(fonts_farsi/Yekan.eot?#iefix) format("embedded-opentype"),
+src:url(fonts_farsi/Yekan.woff) format("woff");
+src:url(fonts_farsi/Yekan.ttf) format("truetype");
+src:url(fonts_farsi/Yekan.svg#BYekan) format("svg");
+font-weight: normal;
+font-style: normal;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td{font-family:yekan;}
+body{font-family:yekan;}
+h1, h2, h2 a, h2 a:visited, h3, h4, h5, h6{font-family:yekan;}
+body{
+  direction: rtl;
+}
+.easy-tree li > span > a {
+    text-align: right;
+  }
+.col-md-3 {
+      float: right !important;
+  }
+  .easy-tree li::before, .easy-tree li::after {
+    content: '';
+    right: -30px !important;
+    position: absolute;
+    right: auto;
+}

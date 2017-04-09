@@ -13,20 +13,20 @@
             editable: false,
             addable: false,
             i18n: {
-                deleteNull: 'Please Select Node First',
-                deleteConfirmation: 'Are You Sure To Delete？',
-                confirmButtonLabel: 'Confirm',
-                editNull: 'Can\'t Edite Null Node',
-                editMultiple: 'Can\'t Edite Multiple Node',
-                addMultiple: 'Can\'t Add Multiple Node',
-                collapseTip: 'collapse',
-                expandTip: 'expand',
-                selectTip: 'Select',
-                unselectTip: 'Unselect',
-                editTip: 'Edit',
-                addTip: 'Add',
-                deleteTip: 'Delete',
-                cancelButtonLabel: 'Cancel'
+                deleteNull: 'لطفا اول یک گره را انتخاب کنید.',
+                deleteConfirmation: 'آیا از پاک کردن مطمئن هستید؟',
+                confirmButtonLabel: 'تایید',
+                editNull: 'نمی توان گره انتخاب نشده را ویرایش کرد.',
+                editMultiple: 'نمی توان چند گره را ویرایش کرد.',
+                addMultiple: 'نمی توان چند گره ایجاد کرد.',
+                collapseTip: 'بستن',
+                expandTip: 'بازکردن',
+                selectTip: 'انتخاب',
+                unselectTip: 'غیر انتخاب',
+                editTip: 'ویرایش',
+                addTip: 'اضافه کردن',
+                deleteTip: 'پاک کردن',
+                cancelButtonLabel: 'لغو'
             }
         };
 
