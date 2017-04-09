@@ -1,9 +1,9 @@
 /**
- * Easy Tree 简易的jquery树插件，将一个无序列表转化成树
- * 支持单选、新增、编辑、删除
+ * Easy Tree
  * @Copyright yuez.me 2014
  * @Author yuez
  * @Version 0.1
+ * Edited By mohammad niki
  */
 (function ($) {
     $.fn.EasyTree = function (options) {
@@ -13,20 +13,20 @@
             editable: false,
             addable: false,
             i18n: {
-                deleteNull: '请选择要删除的项。',
-                deleteConfirmation: '您确认要执行删除操作吗？',
-                confirmButtonLabel: '确认',
-                editNull: '请选择要编辑的项。',
-                editMultiple: '一次只能编辑一项',
-                addMultiple: '请选择一项添加',
-                collapseTip: '收起分支',
-                expandTip: '展开分支',
-                selectTip: '选择',
-                unselectTip: '取消选择',
-                editTip: '编辑',
-                addTip: '添加',
-                deleteTip: '删除',
-                cancelButtonLabel: '取消'
+                deleteNull: 'Please Select Node First',
+                deleteConfirmation: 'Are You Sure To Delete？',
+                confirmButtonLabel: 'Confirm',
+                editNull: 'Can\'t Edite Null Node',
+                editMultiple: 'Can\'t Edite Multiple Node',
+                addMultiple: 'Can\'t Add Multiple Node',
+                collapseTip: 'collapse',
+                expandTip: 'expand',
+                selectTip: 'Select',
+                unselectTip: 'Unselect',
+                editTip: 'Edit',
+                addTip: 'Add',
+                deleteTip: 'Delete',
+                cancelButtonLabel: 'Cancel'
             }
         };
 
